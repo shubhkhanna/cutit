@@ -5,7 +5,7 @@ const validUrl = require("valid-url");
 const nanoId = require("nanoid");
 const urlShort = require("../models/urlShort");
 
-const baseUrl = "http://cutit.azurewebsites.net";
+const baseUrl = "http://cut-it.azurewebsites.net";
 const urlCode = nanoId.nanoid(3);
 
 router.post("/", async (req, res) => {

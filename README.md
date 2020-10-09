@@ -4,7 +4,7 @@ Tired of sending those long urls to your friends?
 
 <b>Try this!</b> A custom URL Shortener service built with Node.js and MongoDB.
 
-> See Hosted Version [Here](http://cutit.azurewebsites.net/)
+> See Hosted Version [Here](http://cut-it.azurewebsites.net/)
 
 ## Demo Video
 
