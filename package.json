@@ -1,0 +1,36 @@
+{
+  "name": "cutit",
+  "version": "1.0.0",
+  "description": "URL Shortener built with Node.js and MongoDb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhkhanna/cutit.git"
+  },
+  "keywords": [
+    "url",
+    "url-shortener"
+  ],
+  "author": "Shubh Khanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhkhanna/cutit/issues"
+  },
+  "homepage": "https://github.com/shubhkhanna/cutit#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "nanoid": "^3.1.12",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
